@@ -1,0 +1,9 @@
+ngroku aç ve şunu çalıştır
+
+ngrok http --domain=vocal-yeti-solely.ngrok-free.app 8000
+
+-----------------------------------
+
+bu dizinde cmd aç ve şunu çalıştır
+
+python -m uvicorn main:app --reload
