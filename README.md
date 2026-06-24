@@ -44,17 +44,19 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 Backend klasörüne gidin ve gerekli kütüphaneleri kurun:
 
 pip install fastapi uvicorn httpx pydantic
+
 Sunucuyu başlatın:
 python -m uvicorn main:app --reload
-Ayrı bir terminalde Ngrok tünelini açın:
-ngrok http 8000
+Ayrı bir terminalde Ngrok tünelini açın: ngrok http 8000
 (Ngrok'un verdiği https://....ngrok-free.app adresini kopyalayın).
 3. Frontend (Flutter) Kurulumu
 Flutter projesinin klasörüne gidin. lib/main.dart dosyasını açıp _apiUrl değişkenine kopyaladığınız Ngrok URL'sini yapıştırın.
 final String _apiUrl = "https://<SIZIN-NGROK-ADRESINIZ>.ngrok-free.app/solve-math";
 Paketleri indirin ve uygulamayı başlatın:
+
 flutter pub get
 flutter run
+
 🎯 Gelecek Planları (Roadmap)
 
 Gelişmiş Tema Motoru (Dark/Light Mode, Baloncuk renkleri özelleştirme).
