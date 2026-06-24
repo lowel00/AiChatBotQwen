@@ -52,7 +52,7 @@ Ayrı bir terminalde Ngrok tünelini açın: ngrok http 8000
 
 (Ngrok'un verdiği https://....ngrok-free.app adresini kopyalayın).
 
-3. Frontend (Flutter) Kurulumu:
+### 3. Frontend (Flutter) Kurulumu:
 
 Flutter projesinin klasörüne gidin. lib/main.dart dosyasını açıp _apiUrl değişkenine kopyaladığınız Ngrok URL'sini yapıştırın.
 
@@ -63,7 +63,7 @@ Paketleri indirin ve uygulamayı başlatın:
 flutter pub get
 flutter run
 
-🎯 Gelecek Planları (Roadmap)
+### 🎯 Gelecek Planları (Roadmap)
 
 Gelişmiş Tema Motoru (Dark/Light Mode, Baloncuk renkleri özelleştirme).
 
